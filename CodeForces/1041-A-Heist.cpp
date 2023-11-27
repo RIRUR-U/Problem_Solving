@@ -23,4 +23,16 @@ int main()
 }
 
 
-//
+//Sortings, Implementation, Greedy.
+/*The problem involves a heist at an electronic store where keyboards were initially numbered in ascending order from
+an unknown integer x. After the heist, only n keyboards with indices a1, a2, ..., an remain. The goal is to find the minimum
+possible number of stolen keyboards by determining the smallest value of x that satisfies the given remaining indices.
+This involves subtracting the minimum index from each remaining index and finding the smallest resulting difference. T
+he objective is to iterate through possible scenarios to calculate the minimum number of stolen keyboards.
+ for example:
+
+    4 is number of keyboards
+    10 13 12 8 number of indices.
+    and here 9 & 11 are missing.
+
+*/
